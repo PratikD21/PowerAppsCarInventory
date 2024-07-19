@@ -1,9 +1,21 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Gallery2": 6,
+    "galleryTemplate2": 7,
+    "Host": 3,
+    "Label1": 11,
+    "Label2": 9,
+    "Label3": 10,
+    "Label4": 8,
+    "Rectangle1": 5,
+    "Screen1": 4
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "07/19/2024 11:09:22",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -11,16 +23,64 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Car Inventories": 6,
+    "Car Inventories\\crc4d_carinventory_crc4d_available": 0,
+    "Car Inventories\\crc4d_carinventory_crc4d_category": 4,
+    "Car Inventories\\crc4d_carinventory_crc4d_color": 1,
+    "Car Inventories\\new_reserveentity_rp53fd1p1ekxpa_t7_0b8bfa0923_statecode": 2,
+    "Car Inventories\\new_reserveentity_rp53fd1p1ekxpa_t7_0b8bfa0923_statuscode": 3,
+    "CustomGallerySample": 5
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "gallery": 1,
+    "label": 2,
+    "rectangle": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Gallery2": {},
+    "galleryTemplate2": {},
+    "Host": {},
+    "Label1": {},
+    "Label2": {},
+    "Label3": {},
+    "Label4": {},
+    "Rectangle1": {},
+    "Screen1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Gallery2": 5,
+    "galleryTemplate2": 7,
+    "Host": 0,
+    "Label1": 6,
+    "Label2": 9,
+    "Label3": 10,
+    "Label4": 8,
+    "Rectangle1": 4,
+    "Screen1": 3
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0253636,
+    "ControlCount": {
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "label": 4,
+      "rectangle": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.4569489
+  },
+  "WasLocalDatabaseReferencesEmpty": false
 }
