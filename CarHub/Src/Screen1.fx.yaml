@@ -39,3 +39,9 @@ Screen1 As screen:
             Text: ="Car Title"
             ZIndex: =2
 
+        Label4 As label:
+            OnSelect: =Select(Parent)
+            Text: ="Car ID"
+            X: =315
+            ZIndex: =3
+
