@@ -1,0 +1,142 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crc4d_carinventories",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crc4d_carinventory",
+    "Name": "Car Inventories",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "crc4d_available": "Available",
+      "crc4d_brand": "Brand",
+      "crc4d_carid": "Car ID",
+      "crc4d_carinventoryid": "Car Inventory",
+      "crc4d_category": "Category",
+      "crc4d_color": "Color",
+      "crc4d_model": "Model",
+      "crc4d_price": "Price",
+      "crc4d_price_base": "Price (Base)",
+      "crc4d_year": "Year",
+      "createdon": "Created On",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedon": "Modified On",
+      "overriddencreatedon": "Record Created On",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Car Inventories",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Available (Car Inventories)",
+    "Name": "crc4d_carinventory_crc4d_available",
+    "OptionSetInfoNameMapping": {
+      "0": "Yes",
+      "1": "No"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc4d_available",
+        "OptionSetReferenceEntityName": "Car Inventories"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crc4d_available",
+    "RelatedEntityName": "Car Inventories",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Category (Car Inventories)",
+    "Name": "crc4d_carinventory_crc4d_category",
+    "OptionSetInfoNameMapping": {
+      "888610000": "Sedan",
+      "888610001": "SUV",
+      "888610002": "Truck",
+      "888610003": "Coupe",
+      "888610004": "Hatchback"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc4d_category",
+        "OptionSetReferenceEntityName": "Car Inventories"
+      }
+    },
+    "OptionSetTypeKey": "MultiSelectPicklistType",
+    "RelatedColumnInvariantName": "crc4d_category",
+    "RelatedEntityName": "Car Inventories",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Color (Car Inventories)",
+    "Name": "crc4d_carinventory_crc4d_color",
+    "OptionSetInfoNameMapping": {
+      "888610000": "Black",
+      "888610001": "White",
+      "888610002": "Red",
+      "888610003": "Blue",
+      "888610004": "Silver"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crc4d_color",
+        "OptionSetReferenceEntityName": "Car Inventories"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crc4d_color",
+    "RelatedEntityName": "Car Inventories",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Car Inventories)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_0b8bfa0923_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Car Inventories"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Car Inventories",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Car Inventories)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_0b8bfa0923_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Car Inventories"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Car Inventories",
+    "Type": "OptionSetInfo"
+  }
+]
