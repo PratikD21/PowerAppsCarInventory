@@ -36,6 +36,6 @@ Screen1 As screen:
 
         Label3 As label:
             OnSelect: =Select(Parent)
-            Text: ="Car ID"
+            Text: ="Car Title"
             ZIndex: =2
 
