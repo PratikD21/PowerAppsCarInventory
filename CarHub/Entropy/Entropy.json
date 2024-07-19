@@ -3,19 +3,17 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Gallery1": 7,
-    "galleryTemplate1": 8,
+    "Gallery2": 12,
+    "galleryTemplate2": 13,
     "Host": 3,
-    "Image1": 9,
     "Label1": 6,
+    "Label2": 14,
     "Rectangle1": 5,
-    "Screen1": 4,
-    "Subtitle1": 11,
-    "Title1": 10
+    "Screen1": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/19/2024 07:43:51",
+  "HeaderLastSavedDateTimeUTC": "07/19/2024 08:49:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -36,36 +34,31 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "gallery": 2,
-    "image": 3,
-    "label": 1,
+    "gallery": 1,
+    "label": 2,
     "rectangle": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Gallery1": {},
-    "galleryTemplate1": {},
+    "Gallery2": {},
+    "galleryTemplate2": {},
     "Host": {},
-    "Image1": {},
     "Label1": {},
+    "Label2": {},
     "Rectangle1": {},
-    "Screen1": {},
-    "Subtitle1": {},
-    "Title1": {}
+    "Screen1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Gallery1": 2,
-    "galleryTemplate1": 3,
+    "Gallery2": 0,
+    "galleryTemplate2": 0,
     "Host": 0,
-    "Image1": 4,
     "Label1": 1,
+    "Label2": 0,
     "Rectangle1": 0,
-    "Screen1": 0,
-    "Subtitle1": 6,
-    "Title1": 5
+    "Screen1": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
