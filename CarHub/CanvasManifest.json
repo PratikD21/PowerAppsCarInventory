@@ -10,7 +10,7 @@
     "MSAppStructureVersion": "2.0"
   },
   "Properties": {
-    "AppCopilotSchemaName": "",
+    "AppCopilotSchemaName": null,
     "AppCreationSource": "AppFromScratch",
     "AppDescription": "",
     "AppPreviewFlagsMap": {
@@ -117,7 +117,7 @@
     "FileID": "1c783b5c-3937-4ffe-8572-0c882309d70b",
     "Id": "1c783b5c-3937-4ffe-8572-0c882309d70b",
     "InstrumentationKey": "",
-    "ManualOfflineProfileId": "",
+    "ManualOfflineProfileId": null,
     "Name": "Car Hub",
     "OriginatingVersion": "1.342",
     "ParserErrorCount": 0,
