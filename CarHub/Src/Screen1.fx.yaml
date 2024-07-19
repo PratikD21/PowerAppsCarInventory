@@ -1,0 +1,18 @@
+Screen1 As screen:
+
+    Rectangle1 As rectangle:
+        Height: =129
+        Width: =1366
+        ZIndex: =1
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =120
+        Size: =50
+        Text: ="Car Inventory"
+        Width: =567
+        X: =425
+        ZIndex: =2
+
